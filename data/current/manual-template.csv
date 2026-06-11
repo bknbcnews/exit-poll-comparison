@@ -1,0 +1,4 @@
+election_id,state,year,race_type,category,group,metric,party,value,status
+2026-senate,PA,2026,senate,Race,Black voters,electorate_share,,12,ok
+2026-senate,PA,2026,senate,Race,Black voters,vote_share,Dem,85,ok
+2026-senate,PA,2026,senate,Race,Black voters,vote_share,GOP,13,ok
