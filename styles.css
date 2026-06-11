@@ -1,64 +1,145 @@
-# Data Contract
-
-The app should consume normalized JSON. Spreadsheet layouts, NBC page layouts, manual pasted tables, and future scrapers should all be converted into this shape.
-
-## Dataset envelope
-
-```json
-{
-  "metadata": {
-    "dataset_id": "2024-president-ga-draft",
-    "election_id": "2024-president",
-    "state": "GA",
-    "year": 2024,
-    "race_type": "president",
-    "source": "Manual workbook import",
-    "source_url": null,
-    "data_status": "draft",
-    "last_updated": "2026-06-11T00:00:00Z",
-    "schema_version": "0.1.0"
-  },
-  "rows": []
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #17202a;
+  background: #f5f7fb;
 }
-```
 
-## Row shape
+* { box-sizing: border-box; }
 
-```json
-{
-  "category": "Race",
-  "group": "Black voters",
-  "metric": "vote_share",
-  "party": "Dem",
-  "value": 86,
-  "unit": "pct",
-  "status": "ok",
-  "notes": null
+body {
+  margin: 0;
 }
-```
 
-## Metric values
+.app {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+}
 
-- `electorate_share`: share of electorate for a group.
-- `vote_share`: candidate/party share within that group.
+.hero, section {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  padding: 24px;
+  margin-bottom: 20px;
+}
 
-## Status values
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: 12px;
+  font-weight: 700;
+  color: #52677a;
+  margin: 0 0 8px;
+}
 
-- `ok`: usable numeric value.
-- `missing`: expected value is absent.
-- `not_available`: source reported NA/XX/XXX/--.
-- `not_comparable`: group or metric definition changed.
-- `draft`: value exists but is not final.
+h1 {
+  font-size: clamp(30px, 4vw, 44px);
+  margin: 0 0 8px;
+}
 
-## Historical status values
+h2 {
+  margin-top: 0;
+}
 
-- `draft`
-- `under_review`
-- `locked`
-- `correction_pending`
-- `corrected`
-- `superseded`
+.lede {
+  max-width: 760px;
+  color: #4a5568;
+  font-size: 17px;
+  line-height: 1.45;
+}
 
-## Correction rule
+.badge-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
 
-Locked historical data is not changed by normal app tools, scrapers, or election-night updates. Corrections require documentation, approval, and a new locked dataset version or correction record.
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  background: #edf2f7;
+  color: #27384a;
+}
+
+.badge.live_unverified, .badge.draft { background: #fff3cd; color: #7a4d00; }
+.badge.locked { background: #d1fae5; color: #065f46; }
+.badge.under_review { background: #dbeafe; color: #1e3a8a; }
+
+.controls {
+  display: flex;
+  gap: 18px;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  font-weight: 700;
+  color: #344054;
+}
+
+select {
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+th, td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #f8fafc;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: #475569;
+}
+
+tr:last-child td { border-bottom: none; }
+
+.change-cell {
+  font-weight: 800;
+  border-radius: 8px;
+}
+
+.change-positive { background: #dcfce7; color: #166534; }
+.change-negative { background: #fee2e2; color: #991b1b; }
+.change-neutral { background: #f1f5f9; color: #475569; }
+.change-warning { background: #ffedd5; color: #9a3412; }
+
+.notice {
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.error {
+  background: #fee2e2;
+  color: #991b1b;
+  border-color: #fecaca;
+}
+
+ul { margin: 0; padding-left: 22px; }
+li { margin-bottom: 8px; }
+code { background: #f1f5f9; padding: 2px 5px; border-radius: 5px; }

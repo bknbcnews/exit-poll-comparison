@@ -8,16 +8,29 @@
 </head>
 <body>
   <main class="app">
-    <header>
+    <header class="hero">
+      <p class="eyebrow">Starter prototype</p>
       <h1>Exit Poll Comparison Tool</h1>
-      <p>
-        Compare current exit poll data against historical baselines.
-      </p>
+      <p class="lede">Compare current exit poll data against historical baselines, flag suspicious changes, and separate live data from historical data.</p>
     </header>
 
     <section class="status-card">
       <h2>Data status</h2>
       <div id="metadata">Loading data...</div>
+    </section>
+
+    <section class="controls-card">
+      <h2>View</h2>
+      <div class="controls">
+        <label>
+          Color perspective
+          <select id="perspective-select">
+            <option value="raw">Raw movement</option>
+            <option value="Dem">Democratic performance</option>
+            <option value="GOP">Republican performance</option>
+          </select>
+        </label>
+      </div>
     </section>
 
     <section>
