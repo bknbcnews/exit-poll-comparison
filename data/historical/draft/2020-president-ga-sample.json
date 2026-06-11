@@ -1,0 +1,855 @@
+{
+  "metadata": {
+    "dataset_id": "2020-president-ga",
+    "election_id": "2020-president",
+    "state": "GA",
+    "state_name": "Georgia",
+    "source": "Legacy workbook import",
+    "source_url": null,
+    "data_status": "under_review",
+    "last_updated": "2026-06-11T14:15:06.841252+00:00",
+    "schema_version": "0.1.0"
+  },
+  "rows": [
+    {
+      "category": "Workbook group",
+      "group": "Black",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 29.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Black",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 88.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Black",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 11.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Hispanic",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 7.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Hispanic",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 62.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Hispanic",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 37.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 61.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 30.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 69.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Non-White",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 39.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Non-White",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 81.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Non-White",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 18.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Men",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 44.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Men",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 43.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Men",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 55.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Women",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 56.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Women",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 54.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Women",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 45.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "College",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 40.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "College",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 57.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "College",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 42.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Non-College",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 60.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Non-College",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 45.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Non-College",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 54.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White Women",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 33.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White Women",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 32.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White Women",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 67.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White Men",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 29.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White Men",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 27.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White Men",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 72.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White College*",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 26.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White College*",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 44.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White College*",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 55.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White Non-College*",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 35.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White Non-College*",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 20.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "White Non-College*",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 79.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Black Men",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 11.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Black Men",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 83.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Black Men",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 16.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Black Women",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 17.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Black Women",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 92.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Black Women",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 7.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Under 30",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 20.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Under 30",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 56.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Under 30",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 43.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Over 65",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 19.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Over 65",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 44.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Over 65",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 56.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Union Household",
+      "metric": "electorate_share",
+      "party": null,
+      "value": null,
+      "unit": "pct",
+      "status": "not_available",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Union Household",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": null,
+      "unit": "pct",
+      "status": "not_available",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Union Household",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": null,
+      "unit": "pct",
+      "status": "not_available",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Liberal",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 22.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Liberal",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 87.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Liberal",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 12.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Conservative",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 40.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Conservative",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 14.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Conservative",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 86.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Moderate",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 38.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Moderate",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 65.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Moderate",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 33.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Independents",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 28.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Independents",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 53.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Independents",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 44.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Republicans",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 38.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Republicans",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 6.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Republicans",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 94.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Democrats",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 34.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Democrats",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 96.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Democrats",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 4.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "City",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 23.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "City",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 67.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "City",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 32.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Suburbs",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 62.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Suburbs",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 48.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Suburbs",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 51.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Rural",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 14.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Rural",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 30.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Rural",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 69.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Hispanic Men",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 3.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Hispanic Men",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 51.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Hispanic Men",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 48.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Hispanic Women",
+      "metric": "electorate_share",
+      "party": null,
+      "value": 4.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Hispanic Women",
+      "metric": "vote_share",
+      "party": "Dem",
+      "value": 69.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    },
+    {
+      "category": "Workbook group",
+      "group": "Hispanic Women",
+      "metric": "vote_share",
+      "party": "GOP",
+      "value": 30.0,
+      "unit": "pct",
+      "status": "under_review",
+      "notes": "Imported from legacy workbook layout. Verify before locking."
+    }
+  ]
+}
