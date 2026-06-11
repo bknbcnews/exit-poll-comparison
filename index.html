@@ -1,4 +1,36 @@
-election_id,state,year,race_type,category,group,metric,party,value,status
-2026-senate,PA,2026,senate,Race,Black voters,electorate_share,,12,ok
-2026-senate,PA,2026,senate,Race,Black voters,vote_share,Dem,85,ok
-2026-senate,PA,2026,senate,Race,Black voters,vote_share,GOP,13,ok
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exit Poll Comparison Tool</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>Exit Poll Comparison Tool</h1>
+      <p>
+        Compare current exit poll data against historical baselines.
+      </p>
+    </header>
+
+    <section class="status-card">
+      <h2>Data status</h2>
+      <div id="metadata">Loading data...</div>
+    </section>
+
+    <section>
+      <h2>Comparison</h2>
+      <div id="comparison-table">Loading comparison...</div>
+    </section>
+
+    <section>
+      <h2>QA flags</h2>
+      <div id="qa-flags">Loading QA checks...</div>
+    </section>
+  </main>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
